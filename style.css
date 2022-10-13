@@ -30,9 +30,18 @@ a {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 18px;
     color: #F9FAF8;
     padding: 0;
+}
+
+.info {
+    margin-left: 120px;
+}
+
+.info, p {
+    margin: -3px;
+    padding: 10px;
 }
 
 .links {
@@ -41,7 +50,7 @@ a {
 }
 
 img[src="images/beautiful_highway.jpg"]{
-    max-width: 700px;
+    max-width: 400px;
     max-height: auto;
     margin-bottom: 50px;
 }
@@ -66,7 +75,6 @@ div .main_img{
     align-items: center;
     color: white;
     justify-content: space-around;
-    margin: 0, 400;
 }
 
 .hero h1 {
@@ -94,6 +102,7 @@ div .main_img{
     font-size: 50px;
     font-weight: 900;
     background-color: white;
+    padding: 40px;
 }
 
 .main_2 {
@@ -107,7 +116,6 @@ div .main_img{
 }
 
 .img_wt {
-    border: solid blue;
     border-radius: 15px;
     width: 150px;
     height: 150px;
@@ -138,19 +146,43 @@ div .main_img{
 
 .call_to_action {
     display: flex;
-    background-color: blue;
-    width: 300px;
+    background-color: #3882F6;
+    width: 800px;
     height: 150px;
     justify-content: center;
+    border-radius: 7px;
 }
 
 .main_4 {
     background-color: white;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
 }
 
 .button_bottom {
-    border: solid blue;
     color: white;
     width: 500px;
+    padding: 50px;
+    text-align: center;
+}
+
+#button_b {
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 25px;
 }
